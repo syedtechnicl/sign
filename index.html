@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Js</title>
+</head>
+<body>
+<!-- <center> -->
+<style>
+form{background-image:url("l.jpeg");
+background-size:100% 90%;
+}
+
+	
+</style>
+<form style="text-transform:uppercase;">
+user name:<input placeholder="enter ur name" type="text" class="form-control" name="" id="user">
+<style>
+input{text-align:center;text-transform:capitalize;}
+</style>
+<br>
+password:<input placeholder="enter ur password"class="form-control" type="password" name="" id="pass">
+	<br>
+<center>
+<button onclick="check();" type="button" class="btn btn-outline-primary" style="width:100px;">login</button>	
+</center>
+</form>
+<script>
+function check(){
+var u=document.getElementById("user").value;
+var p=document.getElementById("pass").value;
+if (u=="abc" && p=="123") {
+alert("login correct");	
+}else{
+alert("incorrect password")	
+}}
+</script>
+
+
+
+
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+</body>
+</html>
